@@ -1,0 +1,62 @@
+body{
+	display:flex;
+	justify-content: center;
+	height:85vh;
+}
+h1{
+	text-align:center;
+}
+.mynav{
+	display:flex;
+	justify-content: center;
+}
+.mynav p{
+	color:white;
+	margin:10px;
+	border-radius:2px;
+	background-color:darkcyan;
+	padding: 2px 5px 2px 5px;
+}
+.the_app{
+	background-color:white;
+	padding:20px;
+	border-radius:3px;
+	text-align:center;
+}
+.todoform{
+	margin-bottom:20px;
+}
+.todoform button{
+	margin-bottom:3px;
+}
+.post button{
+	padding:0 6px 0 6px;
+	color:white;
+	margin:2px;
+}
+.todoform button{
+	padding:2px 6px 2px 6px;
+}
+.post{
+	display:flex;
+	justify-content: space-between;
+}
+.flex-container{
+	display:flex;
+	align-items: baseline;
+}
+.the_input{
+	min-width:600px;
+	margin:5px;
+}
+p{
+	margin-left:3px;
+}
+@media only screen and (max-width: 600px) {
+	.the_app{
+		min-width:90vw;
+	}
+	.the_input{
+		min-width:60vw;
+	}
+  }
